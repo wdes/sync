@@ -1,0 +1,21 @@
+{
+  "@@last_modified": "2018-12-30T23:55:22.980892",
+  "folders": "Folders",
+  "@folders": {
+    "description": "Folders in menu drawer",
+    "type": "text",
+    "placeholders": {}
+  },
+  "accounts": "Accounts",
+  "@accounts": {
+    "description": "Accounts in menu drawer",
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home in menu drawer",
+    "type": "text",
+    "placeholders": {}
+  }
+}

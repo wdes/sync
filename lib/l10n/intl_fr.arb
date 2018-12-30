@@ -1,0 +1,22 @@
+{
+  "@@last_modified": "2018-12-30T23:02:59.076665",
+  "@@locale": "fr",
+  "folders": "Dossiers",
+  "@folders": {
+    "description": "Dossiers dans le menu de l'application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "accounts": "Comptes",
+  "@accounts": {
+    "description": "Comptes dans le menu de l'application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "Accueil",
+  "@home": {
+    "description": "Accueil dans le menu de l'application",
+    "type": "text",
+    "placeholders": {}
+  }
+}
