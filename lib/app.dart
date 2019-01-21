@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'appLocalizations.dart';
+import 'accounts.dart';
+import 'folders.dart';
 
 class Main extends StatefulWidget {
   Main({Key key, this.title}) : super(key: key);
@@ -42,28 +44,25 @@ class _MainState extends State<Main> {
             ListTile(
               title: Text(AppLocalizations.of(context).home),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
                 Navigator.pop(context);
               },
             ),
             ListTile(
               title: Text(AppLocalizations.of(context).folders),
               onTap: () {
-                // Update the state of the app
-                //
-                // Then close the drawer
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => FoldersScreen()),
+                );
               },
             ),
             ListTile(
               title: Text(AppLocalizations.of(context).accounts),
               onTap: () {
-                // Update the state of the app
-                //
-                // Then close the drawer
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AccountsScreen()),
+                );
               },
             ),
           ],
